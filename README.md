@@ -16,14 +16,14 @@ A customizable, animated, and draggable toggle switch card for Home Assistant da
 1.  Go to the HACS page in your Home Assistant instance.
 2.  Click the three-dot menu in the top right.
 3.  Select "Custom repositories".
-4.  In the "Repository" field, paste the URL of this repository (https://github.com/agoberg85/home-assistant-simple-tabs).
+4.  In the "Repository" field, paste the URL of this repository (https://github.com/agoberg85/home-assistant-draggable-toggle-card).
 5.  For "Category", select "Dashboard".
 6.  Click "Add".
 7.  The `draggable-toggle-card` will now appear in the HACS Frontend list. Click "Install".
 
 ### Manual Installation
 
-1.  Download the `draggable-toggle-card.js` file from the latest [release](https://github.com/agoberg85/home-assistant-simple-tabs/releases).
+1.  Download the `draggable-toggle-card.js` file from the latest [release](https://github.com/agoberg85/home-assistant-draggable-toggle-card/blob/main/draggable-toggle-card.js).
 2.  Copy the file to the `www` directory in your Home Assistant `config` folder.
 3.  In your Lovelace dashboard, go to "Manage Resources" and add a new resource:
     - URL: `/local/draggable-toggle-card.js`

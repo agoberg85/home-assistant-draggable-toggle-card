@@ -1,6 +1,6 @@
 # Draggable Toggle Card
 
-A highly customizable, animated, and draggable toggle switch card for Home Assistant dashboards.
+A customizable, animated, and draggable toggle switch card for Home Assistant dashboards.
 
 ![Draggable Toggle Card Screenshot](https://github.com/agoberg85/home-assistant-draggable-toggle-card/blob/main/screenshot.jpg)
 

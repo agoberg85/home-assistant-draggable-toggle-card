@@ -2,7 +2,7 @@
 
 A highly customizable, animated, and draggable toggle switch card for Home Assistant dashboards.
 
-![screenshot of card](https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/lovelace-draggable-toggle-card/main/screenshot.png)
+![Draggable Toggle Card Screenshot](https://github.com/agoberg85/home-assistant-draggable-toggle-card/blob/main/screenshot.jpg)
 
 ## Features
 - **Draggable:** Click and drag the handle to change the state.

@@ -54,8 +54,9 @@ color_icon_active: '#ffffff'
 | `size` | string | `large` | `xsmall`, `small`, `medium`, or `large`. |
 | `center_card` | boolean | `true` | Set to `false` to left-align the card. |
 | `hide_icons` | boolean | `false` | Set to `true` to hide all icons. |
-| `color_bg` | string | (Theme BG) | Background color of the toggle. |
+| `color_bg` | string |  | Background color of the toggle. |
 | `color_active`| string | (Pink Gradient)| Background color/gradient of the thumb. |
+| `color_off`| string | `false`| Background color/gradient of the thumb when entity is off/locked. |
 | `color_icon` | string | (Theme Text) | Color of the inactive icons. |
 | `color_icon_active`| string | `white` | Color of the icon inside the thumb. |
 

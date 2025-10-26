@@ -43,6 +43,7 @@ icon_on: mdi:ceiling-light
 icon_off: mdi:ceiling-light-outline
 color_bg: '#454545'
 color_active: 'linear-gradient(145deg, #2196F3, #03A9F4)'
+color_off: 'red'
 color_icon: '#c5c5c5'
 color_icon_active: '#ffffff'
 ```

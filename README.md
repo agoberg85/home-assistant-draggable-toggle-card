@@ -4,6 +4,12 @@ A customizable, animated, and draggable toggle switch card for Home Assistant da
 
 ![Draggable Toggle Card Screenshot](https://github.com/agoberg85/home-assistant-draggable-toggle-card/blob/main/screenshot.jpg)
 
+## Support development
+
+Buy me a coffee: https://buymeacoffee.com/mysmarthomeblog
+
+Subscribe to Youtube channel: https://www.youtube.com/@My_Smart_Home
+
 ## Features
 - **Draggable:** Click and drag the handle to change the state.
 - **Configurable:** Change orientation (vertical/horizontal), size, colors, and icons.

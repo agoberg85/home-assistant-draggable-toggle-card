@@ -66,9 +66,3 @@ color_icon_active: '#ffffff'
 | `color_off`| string | `false`| Background color/gradient of the thumb when entity is off/locked. |
 | `color_icon` | string | (Theme Text) | Color of the inactive icons. |
 | `color_icon_active`| string | `white` | Color of the icon inside the thumb. |
-
-## Support development
-
-Buy me a coffee: https://buymeacoffee.com/mysmarthomeblog
-
-Subscribe to Youtube channel: https://www.youtube.com/@My_Smart_Home

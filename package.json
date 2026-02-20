@@ -1,6 +1,6 @@
 {
   "name": "mysmart-draggable-toggle",
-  "version": "1.0.0",
+  "version": "v0.2.5",
   "description": "A customizable, animated, and draggable toggle switch card for Home Assistant dashboards.",
   "main": "mysmart-draggable-toggle.js",
   "scripts": {

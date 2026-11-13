@@ -61,7 +61,8 @@ class DraggableToggleCard extends LitElement {
       color_icon: 'var(--secondary-text-color, #a9a9a9)',
       color_active: 'linear-gradient(145deg, #e66465, #9198e5)',
       color_icon_active: 'white',
-      color_off: null, // NEW: Add color_off option with a null default
+      color_off: null, // Thumb color when off/locked; falls back to color_active
+      color_icon_off: null, // Thumb icon color when off/locked; falls back to color_icon_active
       ...config
     };
   }
@@ -80,6 +81,7 @@ class DraggableToggleCard extends LitElement {
     // MODIFIED: Determine the correct color for the thumb.
     // If the state is 'off' and color_off is defined, use it. Otherwise, use color_active.
     const thumbColor = !isOn && this.config.color_off ? this.config.color_off : this.config.color_active;
+    const thumbIconColor = !isOn && this.config.color_icon_off ? this.config.color_icon_off : this.config.color_icon_active;
 
     const orientation = this.config.orientation || 'vertical';
     const size = SIZES[this.config.size] || SIZES.large;
@@ -90,7 +92,7 @@ class DraggableToggleCard extends LitElement {
       --toggle-bg-color: ${this.config.color_bg};
       --toggle-active-color: ${thumbColor}; /* MODIFIED: Use the dynamically chosen thumbColor */
       --toggle-icon-color: ${this.config.color_icon};
-      --toggle-icon-active-color: ${this.config.color_icon_active};
+      --toggle-icon-active-color: ${thumbIconColor};
       --container-w-v: ${size.container_w}px;
       --container-h-v: ${size.container_h}px;
       --container-w-h: ${size.container_h}px;
@@ -147,7 +149,8 @@ class DraggableToggleCard extends LitElement {
       hide_icons: false,
       color_bg: '#333333',
       color_active: '#ff9800',
-      color_off: '#666666', // NEW: Add to stub
+      color_off: '#666666',
+      color_icon_off: '#ffffff',
     };
   }
 }

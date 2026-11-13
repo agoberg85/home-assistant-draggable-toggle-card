@@ -49,9 +49,10 @@ icon_on: mdi:ceiling-light
 icon_off: mdi:ceiling-light-outline
 color_bg: '#454545'
 color_active: 'linear-gradient(145deg, #2196F3, #03A9F4)'
-color_off: 'red'
+color_off: '#5a5a5a'
 color_icon: '#c5c5c5'
 color_icon_active: '#ffffff'
+color_icon_off: '#e0e0e0'
 ```
 
 | Name | Type | Default | Description |
@@ -63,7 +64,7 @@ color_icon_active: '#ffffff'
 | `hide_icons` | boolean | `false` | Set to `true` to hide all icons. |
 | `color_bg` | string |  | Background color of the toggle. |
 | `color_active`| string | (Pink Gradient)| Background color/gradient of the thumb. |
-| `color_off`| string | `false`| Background color/gradient of the thumb when entity is off/locked. |
+| `color_off`| string | (`color_active`)| Background color/gradient of the thumb when entity is off/locked. |
 | `color_icon` | string | (Theme Text) | Color of the inactive icons. |
-
 | `color_icon_active`| string | `white` | Color of the icon inside the thumb. |
+| `color_icon_off`| string | (`color_icon_active`) | Color of the icon inside the thumb when entity is off/locked. |
